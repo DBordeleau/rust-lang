@@ -36,10 +36,10 @@
 ```
 
 * A string is made of 3 parts. A pointer to its memory address, its length and its capacity. This group of data is stored on the **stack**, the memory that actually holds the contents of the string is stored on the heap.
-![[Pasted image 20250409120447.png]]
+[![img1](https://github.com/DBordeleau/rust-lang/blob/main/ch4/Pasted%20image%2020250409120447.png)]
 * When we assign s1 to s2, the String data (the pointer, length and capacity) are copied. That is, we duplicate the data on the stack. However, we do not copy the data on the heap. That means that s1 and s2 both have pointers that point to the same data on the heap. 
 * This is not a concern with simple data types which are stored entirely on the stack.
-![[Pasted image 20250409120758.png]]
+[![img2](https://github.com/DBordeleau/rust-lang/blob/main/ch4/Pasted%20image%2020250409120758.png)]
 * When s1 and s2 go out of scope and Rust calls the drop function, both variables will try to free the same memory on the heap. This is called a **double free** error. 
 * To ensure memory safety, Rust no longer considers s1 to be valid after we assign s2 = s1; This is known as a **move**.
 
