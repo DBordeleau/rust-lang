@@ -29,7 +29,9 @@ println!("The value of x is: {}", x);
 ```
 
 <u>Integer Types in Rust</u>
-![[Pasted image 20250408223529.png]]
+
+![img1](https://github.com/DBordeleau/rust-lang/blob/main/ch3/Pasted%20image%2020250408223529.png)
+
 * **Unsigned** integers can only be positive.
 * Arch integers depend on architecture, usually 32 or 64 bit.
 * Integers don't have to be expressed in decimal, Rust will also recognize hex, octal, binary and byte (u8 only).
