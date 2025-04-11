@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch4/Chapter 4 - Ownership.md",
+                "file": "ch5/Chapter 5 - Structs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4 - Ownership"
+              "title": "Chapter 5 - Structs"
             }
           }
         ]
@@ -168,16 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d89380d77cf9bc5",
+  "active": "97d5bee2e4a4514b",
   "lastOpenFiles": [
-    "Pasted image 20250409120758.png",
-    "Pasted image 20250409120447.png",
-    "Pasted image 20250409120309.png",
-    "ch3/Chapter 3 Notes.md",
+    "ch5/area_of_rectangle",
     "ch4/Chapter 4 - Ownership.md",
+    "ch5/Chapter 5 - Structs.md",
+    "ch3/Pasted image 20250408223529.png",
+    "ch4/Pasted image 20250409120758.png",
+    "ch4/Pasted image 20250409120447.png",
+    "ch4/Pasted image 20250409120309.png",
+    "ch3/Chapter 3 Notes.md",
     "README.md",
     "ch4",
-    "Pasted image 20250408223529.png",
     "ch3"
   ]
 }
